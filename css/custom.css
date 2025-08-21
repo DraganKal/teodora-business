@@ -17,8 +17,12 @@
   color: #fff !important;
 }
 
+.color-black {
+  color: #111 !important;
+}
+
 .color-primary {
-  color: #b8b3ad !important;
+  color: #777777 !important;
 }
 
 .color-secondary {
@@ -187,6 +191,10 @@
   border-left: 1px solid #d8d5d0;
 }
 
+.border-left-white {
+  border-left: 1px solid #ffffff46;
+}
+
 .block-follow-instagram {
   border-radius: 10px;
   width: 400px;
@@ -331,7 +339,7 @@
 
 .buttons {
   display: flex;
-  gap: 40px;
+  gap: 10px;
 }
 
 [type="radio"]:checked,
@@ -428,4 +436,52 @@
 
 .font-amsterdam {
   font-family: 'AmsterdamFour', sans-serif !important;
+}
+
+.coaching-wrapper {
+  max-width: 1100px;
+  margin: auto;
+}
+.coaching-left, .coaching-right {
+  width: 50%;
+}
+.coaching-right {
+  border-left: 1px solid #e1dcd8;
+}
+.coaching-left h3,
+.coaching-right h3 {
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.coaching-left ul, .coaching-right ul {
+  padding-left: 18px;
+  margin-bottom: 15px;
+}
+
+.timski-buttons-container {
+  padding-left: 10px;
+  margin-left: 20px;
+  /* border-left: 1px solid #b8b3ad42; */
+}
+
+.groups-label {
+  margin-bottom: 5px;
+}
+
+.width-100 {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+/* .margin-left-140 {
+  margin-left: 140px;
+} */
+
+.main-buttons {
+  margin-right: 107px;
+}
+
+.color-tertiarry {
+  color: #b8b3ad !important
 }

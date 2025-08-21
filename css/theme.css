@@ -89,7 +89,7 @@ li {
   display: flex;
   flex-direction: column;
   /* background: var(--light); */
-  background-color: #e1dcd8;
+  background-color: #B8B3AD;
   transition: min-height 0.3s ease;
   width: 100%;
   border-top: 3px solid #ededed;
@@ -19567,7 +19567,7 @@ html.dark .text-muted {
   }
 
   .text-main {
-    max-width: 530px;
+    max-width: 630px;
   }
 }
 

@@ -420,6 +420,30 @@
   .br-phone {
     display: block;
   }
+
+  .coaching-left, .coaching-right {
+  width: 100% !important;
+  }
+
+  .coaching-left {
+    padding-left: 1.5rem !important;
+  }
+
+  .coaching-right {
+    padding-top: 30px;
+  }
+
+  .coaching-wrapper {
+    flex-direction: column;
+  }
+
+  #header .header-row {
+    flex-grow: 0;
+  }
+
+  #header .header-container {
+    justify-content: center;
+  }
 }
 
 @media (max-width: 423px) {
@@ -478,10 +502,14 @@
   margin-left: 140px;
 } */
 
-.main-buttons {
+/* .main-buttons {
   margin-right: 107px;
-}
+} */
 
 .color-tertiarry {
   color: #b8b3ad !important
+}
+
+.line-height-30px {
+  line-height: 30px;
 }

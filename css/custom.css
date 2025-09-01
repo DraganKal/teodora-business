@@ -444,6 +444,13 @@
   #header .header-container {
     justify-content: center;
   }
+
+  .pt-main-mobile {
+    padding-top: 50px !important;
+  }
+  .pb-phone-0 {
+    padding-bottom: 0 !important;
+  }
 }
 
 @media (max-width: 423px) {

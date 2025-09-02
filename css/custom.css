@@ -397,6 +397,10 @@
   transform: scale(1);
 }
 
+.d-phone {
+  display: none;
+}
+
 @media (max-width: 575.98px) {
   .program-btn-container {
     display: flex;
@@ -451,6 +455,20 @@
   .pb-phone-0 {
     padding-bottom: 0 !important;
   }
+
+  .block-follow-instagram {
+		width: 250px;
+		height: 150px;
+  }
+
+  .instagram-text {
+    font-size: 15px !important;
+  }
+
+  .d-phone {
+    display: inline;
+  }
+
 }
 
 @media (max-width: 423px) {

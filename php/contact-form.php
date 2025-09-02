@@ -48,6 +48,8 @@ try {
   $name = $_POST['subject'];
   $email = $_POST['email'];
   $message = $_POST['message'];
+  $message = $_POST['kompanija'];
+  $message = $_POST['pozicija'];
   $naslov = $_POST['name'];
   $to = 'info@teodorarankov.com';
   $subject = "Prijava na $program";
@@ -56,7 +58,7 @@ try {
   $headers .= "Content-type: text/plain; charset=UTF-8\r\n";
 
   // Send email to the website owner
-  $fullMessage = "Telefon: $naslov\nIme i prezime: $name\nEmail: $email\nPoruka: $message\nProgram: $program";
+  $fullMessage = "Telefon: $naslov\nIme i prezime: $name\nEmail: $email\n Kompanija: $kompanija\Pozicija: $pozicija\n Poruka: $message\nProgram: $program";
   mail($to, $subject, $fullMessage, $headers);
   
 	$arrResult = array ('response'=>'success');

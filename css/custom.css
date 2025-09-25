@@ -538,3 +538,7 @@
 .line-height-30px {
   line-height: 30px;
 }
+
+.o-meni-padding {
+  padding-right: 20px !important;
+}

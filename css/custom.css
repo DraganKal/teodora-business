@@ -425,6 +425,10 @@
     display: block;
   }
 
+  .pt-img-phone {
+    padding-top: 20px;
+  }
+
   .coaching-left, .coaching-right {
   width: 100% !important;
   }
